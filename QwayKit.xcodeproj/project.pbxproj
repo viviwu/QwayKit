@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0DEA951D0181B1008434E6 /* FastAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0DEA931D0181B1008434E6 /* FastAddressBook.h */; };
+		DE0DEA961D0181B1008434E6 /* FastAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DEA941D0181B1008434E6 /* FastAddressBook.m */; };
+		DEC0DBFC1D015DC500ED8C5C /* QwayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC0DBFB1D015DC500ED8C5C /* QwayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC0DC031D015DC600ED8C5C /* QwayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC0DBF81D015DC500ED8C5C /* QwayKit.framework */; };
+		DEC0DC081D015DC600ED8C5C /* QwayKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC071D015DC600ED8C5C /* QwayKitTests.m */; };
+		DEC0DC741D01652D00ED8C5C /* libmsamr.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC6E1D01652D00ED8C5C /* libmsamr.a */; };
+		DEC0DC751D01652D00ED8C5C /* libmsbcg729.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC6F1D01652D00ED8C5C /* libmsbcg729.a */; };
+		DEC0DC761D01652D00ED8C5C /* libmsopenh264.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC701D01652D00ED8C5C /* libmsopenh264.a */; };
+		DEC0DC771D01652D00ED8C5C /* libmssilk.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC711D01652D00ED8C5C /* libmssilk.a */; };
+		DEC0DC781D01652D00ED8C5C /* libmswebrtc.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC721D01652D00ED8C5C /* libmswebrtc.a */; };
+		DEC0DC791D01652D00ED8C5C /* libmsx264.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC731D01652D00ED8C5C /* libmsx264.a */; };
+		DEC0DC7B1D01659E00ED8C5C /* libortp.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5B1D01645600ED8C5C /* libortp.a */; };
+		DEC0DC7C1D01659E00ED8C5C /* libantlr3c.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC411D01645600ED8C5C /* libantlr3c.a */; };
+		DEC0DC7D1D01659E00ED8C5C /* libavcodec.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC421D01645600ED8C5C /* libavcodec.a */; };
+		DEC0DC7E1D01659E00ED8C5C /* libavutil.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC431D01645600ED8C5C /* libavutil.a */; };
+		DEC0DC7F1D01659E00ED8C5C /* libbcg729.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC441D01645600ED8C5C /* libbcg729.a */; };
+		DEC0DC801D01659E00ED8C5C /* libbctoolbox-tester.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC451D01645600ED8C5C /* libbctoolbox-tester.a */; };
+		DEC0DC811D01659E00ED8C5C /* libbctoolbox.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC461D01645600ED8C5C /* libbctoolbox.a */; };
+		DEC0DC821D01659E00ED8C5C /* libbelcard.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC471D01645600ED8C5C /* libbelcard.a */; };
+		DEC0DC831D01659E00ED8C5C /* libbellesip.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC481D01645600ED8C5C /* libbellesip.a */; };
+		DEC0DC841D01659E00ED8C5C /* libbelr.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC491D01645600ED8C5C /* libbelr.a */; };
+		DEC0DC851D01659E00ED8C5C /* libbzrtp.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4A1D01645600ED8C5C /* libbzrtp.a */; };
+		DEC0DC861D01659E00ED8C5C /* libcorec.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4B1D01645600ED8C5C /* libcorec.a */; };
+		DEC0DC871D01659E00ED8C5C /* libcunit.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4C1D01645600ED8C5C /* libcunit.a */; };
+		DEC0DC881D01659E00ED8C5C /* libebml2.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4D1D01645600ED8C5C /* libebml2.a */; };
+		DEC0DC891D01659E00ED8C5C /* libgsm.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4E1D01645600ED8C5C /* libgsm.a */; };
+		DEC0DC8A1D01659E00ED8C5C /* liblinphone.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC4F1D01645600ED8C5C /* liblinphone.a */; };
+		DEC0DC8B1D01659E00ED8C5C /* liblinphonetester.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC501D01645600ED8C5C /* liblinphonetester.a */; };
+		DEC0DC8C1D01659E00ED8C5C /* libmatroska2.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC511D01645600ED8C5C /* libmatroska2.a */; };
+		DEC0DC8D1D01659E00ED8C5C /* libmbedcrypto.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC521D01645600ED8C5C /* libmbedcrypto.a */; };
+		DEC0DC8E1D01659E00ED8C5C /* libmbedtls.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC531D01645600ED8C5C /* libmbedtls.a */; };
+		DEC0DC8F1D01659E00ED8C5C /* libmbedx509.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC541D01645600ED8C5C /* libmbedx509.a */; };
+		DEC0DC901D01659E00ED8C5C /* libmediastreamer_base.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC551D01645600ED8C5C /* libmediastreamer_base.a */; };
+		DEC0DC911D01659E00ED8C5C /* libmediastreamer_voip.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC561D01645600ED8C5C /* libmediastreamer_voip.a */; };
+		DEC0DC921D01659E00ED8C5C /* libopencore-amrnb.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC571D01645600ED8C5C /* libopencore-amrnb.a */; };
+		DEC0DC931D01659E00ED8C5C /* libopencore-amrwb.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC581D01645600ED8C5C /* libopencore-amrwb.a */; };
+		DEC0DC941D01659E00ED8C5C /* libopenh264.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC591D01645600ED8C5C /* libopenh264.a */; };
+		DEC0DC951D01659E00ED8C5C /* libopus.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5A1D01645600ED8C5C /* libopus.a */; };
+		DEC0DC961D01659E00ED8C5C /* libpolarssl.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5C1D01645600ED8C5C /* libpolarssl.a */; };
+		DEC0DC971D01659E00ED8C5C /* libspeex.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5D1D01645600ED8C5C /* libspeex.a */; };
+		DEC0DC981D01659E00ED8C5C /* libspeexdsp.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5E1D01645600ED8C5C /* libspeexdsp.a */; };
+		DEC0DC991D01659E00ED8C5C /* libsrtp.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC5F1D01645600ED8C5C /* libsrtp.a */; };
+		DEC0DC9A1D01659E00ED8C5C /* libswresample.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC601D01645600ED8C5C /* libswresample.a */; };
+		DEC0DC9B1D01659E00ED8C5C /* libswscale.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC611D01645600ED8C5C /* libswscale.a */; };
+		DEC0DC9C1D01659E00ED8C5C /* libtunnel.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC621D01645600ED8C5C /* libtunnel.a */; };
+		DEC0DC9D1D01659E00ED8C5C /* libvo-amrwbenc.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC631D01645600ED8C5C /* libvo-amrwbenc.a */; };
+		DEC0DC9E1D01659E00ED8C5C /* libvpx.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC641D01645600ED8C5C /* libvpx.a */; };
+		DEC0DC9F1D01659E00ED8C5C /* libx264.a in Resources */ = {isa = PBXBuildFile; fileRef = DEC0DC651D01645600ED8C5C /* libx264.a */; };
+		DEC0DCA21D01661900ED8C5C /* QwayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC0DCA01D01661900ED8C5C /* QwayManager.h */; };
+		DEC0DCA31D01661900ED8C5C /* QwayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DCA11D01661900ED8C5C /* QwayManager.m */; };
+		DEC0DCBA1D016D1D00ED8C5C /* QwayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC0DCB81D016D1D00ED8C5C /* QwayUtils.h */; };
+		DEC0DCBB1D016D1D00ED8C5C /* QwayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DCB91D016D1D00ED8C5C /* QwayUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC0DC041D015DC600ED8C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC0DBEF1D015DC500ED8C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC0DBF71D015DC500ED8C5C;
+			remoteInfo = QwayKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0DEA931D0181B1008434E6 /* FastAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastAddressBook.h; sourceTree = "<group>"; };
+		DE0DEA941D0181B1008434E6 /* FastAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastAddressBook.m; sourceTree = "<group>"; };
+		DEC0DBF81D015DC500ED8C5C /* QwayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QwayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC0DBFB1D015DC500ED8C5C /* QwayKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QwayKit.h; sourceTree = "<group>"; };
+		DEC0DBFD1D015DC500ED8C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC0DC021D015DC600ED8C5C /* QwayKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QwayKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC0DC071D015DC600ED8C5C /* QwayKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QwayKitTests.m; sourceTree = "<group>"; };
+		DEC0DC091D015DC600ED8C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC0DC3B1D01640100ED8C5C /* libmsamr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmsamr.a; sourceTree = "<group>"; };
+		DEC0DC3C1D01640100ED8C5C /* libmsbcg729.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmsbcg729.a; sourceTree = "<group>"; };
+		DEC0DC3D1D01640100ED8C5C /* libmsopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmsopenh264.a; sourceTree = "<group>"; };
+		DEC0DC3E1D01640100ED8C5C /* libmssilk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmssilk.a; sourceTree = "<group>"; };
+		DEC0DC3F1D01640100ED8C5C /* libmswebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmswebrtc.a; sourceTree = "<group>"; };
+		DEC0DC401D01640100ED8C5C /* libmsx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmsx264.a; sourceTree = "<group>"; };
+		DEC0DC411D01645600ED8C5C /* libantlr3c.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libantlr3c.a; path = "liblinphone-sdk/apple-darwin/lib/libantlr3c.a"; sourceTree = "<group>"; };
+		DEC0DC421D01645600ED8C5C /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "liblinphone-sdk/apple-darwin/lib/libavcodec.a"; sourceTree = "<group>"; };
+		DEC0DC431D01645600ED8C5C /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "liblinphone-sdk/apple-darwin/lib/libavutil.a"; sourceTree = "<group>"; };
+		DEC0DC441D01645600ED8C5C /* libbcg729.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbcg729.a; path = "liblinphone-sdk/apple-darwin/lib/libbcg729.a"; sourceTree = "<group>"; };
+		DEC0DC451D01645600ED8C5C /* libbctoolbox-tester.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbctoolbox-tester.a"; path = "liblinphone-sdk/apple-darwin/lib/libbctoolbox-tester.a"; sourceTree = "<group>"; };
+		DEC0DC461D01645600ED8C5C /* libbctoolbox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbctoolbox.a; path = "liblinphone-sdk/apple-darwin/lib/libbctoolbox.a"; sourceTree = "<group>"; };
+		DEC0DC471D01645600ED8C5C /* libbelcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbelcard.a; path = "liblinphone-sdk/apple-darwin/lib/libbelcard.a"; sourceTree = "<group>"; };
+		DEC0DC481D01645600ED8C5C /* libbellesip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbellesip.a; path = "liblinphone-sdk/apple-darwin/lib/libbellesip.a"; sourceTree = "<group>"; };
+		DEC0DC491D01645600ED8C5C /* libbelr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbelr.a; path = "liblinphone-sdk/apple-darwin/lib/libbelr.a"; sourceTree = "<group>"; };
+		DEC0DC4A1D01645600ED8C5C /* libbzrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbzrtp.a; path = "liblinphone-sdk/apple-darwin/lib/libbzrtp.a"; sourceTree = "<group>"; };
+		DEC0DC4B1D01645600ED8C5C /* libcorec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcorec.a; path = "liblinphone-sdk/apple-darwin/lib/libcorec.a"; sourceTree = "<group>"; };
+		DEC0DC4C1D01645600ED8C5C /* libcunit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcunit.a; path = "liblinphone-sdk/apple-darwin/lib/libcunit.a"; sourceTree = "<group>"; };
+		DEC0DC4D1D01645600ED8C5C /* libebml2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libebml2.a; path = "liblinphone-sdk/apple-darwin/lib/libebml2.a"; sourceTree = "<group>"; };
+		DEC0DC4E1D01645600ED8C5C /* libgsm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgsm.a; path = "liblinphone-sdk/apple-darwin/lib/libgsm.a"; sourceTree = "<group>"; };
+		DEC0DC4F1D01645600ED8C5C /* liblinphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblinphone.a; path = "liblinphone-sdk/apple-darwin/lib/liblinphone.a"; sourceTree = "<group>"; };
+		DEC0DC501D01645600ED8C5C /* liblinphonetester.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblinphonetester.a; path = "liblinphone-sdk/apple-darwin/lib/liblinphonetester.a"; sourceTree = "<group>"; };
+		DEC0DC511D01645600ED8C5C /* libmatroska2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmatroska2.a; path = "liblinphone-sdk/apple-darwin/lib/libmatroska2.a"; sourceTree = "<group>"; };
+		DEC0DC521D01645600ED8C5C /* libmbedcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedcrypto.a; path = "liblinphone-sdk/apple-darwin/lib/libmbedcrypto.a"; sourceTree = "<group>"; };
+		DEC0DC531D01645600ED8C5C /* libmbedtls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedtls.a; path = "liblinphone-sdk/apple-darwin/lib/libmbedtls.a"; sourceTree = "<group>"; };
+		DEC0DC541D01645600ED8C5C /* libmbedx509.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmbedx509.a; path = "liblinphone-sdk/apple-darwin/lib/libmbedx509.a"; sourceTree = "<group>"; };
+		DEC0DC551D01645600ED8C5C /* libmediastreamer_base.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmediastreamer_base.a; path = "liblinphone-sdk/apple-darwin/lib/libmediastreamer_base.a"; sourceTree = "<group>"; };
+		DEC0DC561D01645600ED8C5C /* libmediastreamer_voip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmediastreamer_voip.a; path = "liblinphone-sdk/apple-darwin/lib/libmediastreamer_voip.a"; sourceTree = "<group>"; };
+		DEC0DC571D01645600ED8C5C /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "liblinphone-sdk/apple-darwin/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		DEC0DC581D01645600ED8C5C /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "liblinphone-sdk/apple-darwin/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		DEC0DC591D01645600ED8C5C /* libopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopenh264.a; path = "liblinphone-sdk/apple-darwin/lib/libopenh264.a"; sourceTree = "<group>"; };
+		DEC0DC5A1D01645600ED8C5C /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = "liblinphone-sdk/apple-darwin/lib/libopus.a"; sourceTree = "<group>"; };
+		DEC0DC5B1D01645600ED8C5C /* libortp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libortp.a; path = "liblinphone-sdk/apple-darwin/lib/libortp.a"; sourceTree = "<group>"; };
+		DEC0DC5C1D01645600ED8C5C /* libpolarssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpolarssl.a; path = "liblinphone-sdk/apple-darwin/lib/libpolarssl.a"; sourceTree = "<group>"; };
+		DEC0DC5D1D01645600ED8C5C /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeex.a; path = "liblinphone-sdk/apple-darwin/lib/libspeex.a"; sourceTree = "<group>"; };
+		DEC0DC5E1D01645600ED8C5C /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspeexdsp.a; path = "liblinphone-sdk/apple-darwin/lib/libspeexdsp.a"; sourceTree = "<group>"; };
+		DEC0DC5F1D01645600ED8C5C /* libsrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsrtp.a; path = "liblinphone-sdk/apple-darwin/lib/libsrtp.a"; sourceTree = "<group>"; };
+		DEC0DC601D01645600ED8C5C /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "liblinphone-sdk/apple-darwin/lib/libswresample.a"; sourceTree = "<group>"; };
+		DEC0DC611D01645600ED8C5C /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "liblinphone-sdk/apple-darwin/lib/libswscale.a"; sourceTree = "<group>"; };
+		DEC0DC621D01645600ED8C5C /* libtunnel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtunnel.a; path = "liblinphone-sdk/apple-darwin/lib/libtunnel.a"; sourceTree = "<group>"; };
+		DEC0DC631D01645600ED8C5C /* libvo-amrwbenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvo-amrwbenc.a"; path = "liblinphone-sdk/apple-darwin/lib/libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		DEC0DC641D01645600ED8C5C /* libvpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvpx.a; path = "liblinphone-sdk/apple-darwin/lib/libvpx.a"; sourceTree = "<group>"; };
+		DEC0DC651D01645600ED8C5C /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = "liblinphone-sdk/apple-darwin/lib/libx264.a"; sourceTree = "<group>"; };
+		DEC0DC6E1D01652D00ED8C5C /* libmsamr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsamr.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmsamr.a"; sourceTree = "<group>"; };
+		DEC0DC6F1D01652D00ED8C5C /* libmsbcg729.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsbcg729.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmsbcg729.a"; sourceTree = "<group>"; };
+		DEC0DC701D01652D00ED8C5C /* libmsopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsopenh264.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmsopenh264.a"; sourceTree = "<group>"; };
+		DEC0DC711D01652D00ED8C5C /* libmssilk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmssilk.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmssilk.a"; sourceTree = "<group>"; };
+		DEC0DC721D01652D00ED8C5C /* libmswebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmswebrtc.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmswebrtc.a"; sourceTree = "<group>"; };
+		DEC0DC731D01652D00ED8C5C /* libmsx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmsx264.a; path = "liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins/libmsx264.a"; sourceTree = "<group>"; };
+		DEC0DCA01D01661900ED8C5C /* QwayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QwayManager.h; sourceTree = "<group>"; };
+		DEC0DCA11D01661900ED8C5C /* QwayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QwayManager.m; sourceTree = "<group>"; };
+		DEC0DCB81D016D1D00ED8C5C /* QwayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QwayUtils.h; sourceTree = "<group>"; };
+		DEC0DCB91D016D1D00ED8C5C /* QwayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QwayUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC0DBF41D015DC500ED8C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC0DBFF1D015DC500ED8C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC0DC031D015DC600ED8C5C /* QwayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC0DBEE1D015DC500ED8C5C = {
+			isa = PBXGroup;
+			children = (
+				DEC0DBFA1D015DC500ED8C5C /* QwayKit */,
+				DEC0DC7A1D01656300ED8C5C /* llinphonelib */,
+				DEC0DC061D015DC600ED8C5C /* QwayKitTests */,
+				DEC0DBF91D015DC500ED8C5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC0DBF91D015DC500ED8C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DBF81D015DC500ED8C5C /* QwayKit.framework */,
+				DEC0DC021D015DC600ED8C5C /* QwayKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC0DBFA1D015DC500ED8C5C /* QwayKit */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DBFB1D015DC500ED8C5C /* QwayKit.h */,
+				DEC0DCA01D01661900ED8C5C /* QwayManager.h */,
+				DEC0DCA11D01661900ED8C5C /* QwayManager.m */,
+				DEC0DCB81D016D1D00ED8C5C /* QwayUtils.h */,
+				DEC0DCB91D016D1D00ED8C5C /* QwayUtils.m */,
+				DE0DEA931D0181B1008434E6 /* FastAddressBook.h */,
+				DE0DEA941D0181B1008434E6 /* FastAddressBook.m */,
+				DEC0DBFD1D015DC500ED8C5C /* Info.plist */,
+			);
+			path = QwayKit;
+			sourceTree = "<group>";
+		};
+		DEC0DC061D015DC600ED8C5C /* QwayKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DC071D015DC600ED8C5C /* QwayKitTests.m */,
+				DEC0DC091D015DC600ED8C5C /* Info.plist */,
+			);
+			path = QwayKitTests;
+			sourceTree = "<group>";
+		};
+		DEC0DC391D01640100ED8C5C /* mediastreamer */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DC3A1D01640100ED8C5C /* plugins */,
+			);
+			name = mediastreamer;
+			path = "liblinphone-sdk/apple-darwin/lib/mediastreamer";
+			sourceTree = "<group>";
+		};
+		DEC0DC3A1D01640100ED8C5C /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DC3B1D01640100ED8C5C /* libmsamr.a */,
+				DEC0DC3C1D01640100ED8C5C /* libmsbcg729.a */,
+				DEC0DC3D1D01640100ED8C5C /* libmsopenh264.a */,
+				DEC0DC3E1D01640100ED8C5C /* libmssilk.a */,
+				DEC0DC3F1D01640100ED8C5C /* libmswebrtc.a */,
+				DEC0DC401D01640100ED8C5C /* libmsx264.a */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		DEC0DC7A1D01656300ED8C5C /* llinphonelib */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0DC5B1D01645600ED8C5C /* libortp.a */,
+				DEC0DC6E1D01652D00ED8C5C /* libmsamr.a */,
+				DEC0DC6F1D01652D00ED8C5C /* libmsbcg729.a */,
+				DEC0DC701D01652D00ED8C5C /* libmsopenh264.a */,
+				DEC0DC711D01652D00ED8C5C /* libmssilk.a */,
+				DEC0DC721D01652D00ED8C5C /* libmswebrtc.a */,
+				DEC0DC731D01652D00ED8C5C /* libmsx264.a */,
+				DEC0DC411D01645600ED8C5C /* libantlr3c.a */,
+				DEC0DC421D01645600ED8C5C /* libavcodec.a */,
+				DEC0DC431D01645600ED8C5C /* libavutil.a */,
+				DEC0DC441D01645600ED8C5C /* libbcg729.a */,
+				DEC0DC451D01645600ED8C5C /* libbctoolbox-tester.a */,
+				DEC0DC461D01645600ED8C5C /* libbctoolbox.a */,
+				DEC0DC471D01645600ED8C5C /* libbelcard.a */,
+				DEC0DC481D01645600ED8C5C /* libbellesip.a */,
+				DEC0DC491D01645600ED8C5C /* libbelr.a */,
+				DEC0DC4A1D01645600ED8C5C /* libbzrtp.a */,
+				DEC0DC4B1D01645600ED8C5C /* libcorec.a */,
+				DEC0DC4C1D01645600ED8C5C /* libcunit.a */,
+				DEC0DC4D1D01645600ED8C5C /* libebml2.a */,
+				DEC0DC4E1D01645600ED8C5C /* libgsm.a */,
+				DEC0DC4F1D01645600ED8C5C /* liblinphone.a */,
+				DEC0DC501D01645600ED8C5C /* liblinphonetester.a */,
+				DEC0DC511D01645600ED8C5C /* libmatroska2.a */,
+				DEC0DC521D01645600ED8C5C /* libmbedcrypto.a */,
+				DEC0DC531D01645600ED8C5C /* libmbedtls.a */,
+				DEC0DC541D01645600ED8C5C /* libmbedx509.a */,
+				DEC0DC551D01645600ED8C5C /* libmediastreamer_base.a */,
+				DEC0DC561D01645600ED8C5C /* libmediastreamer_voip.a */,
+				DEC0DC571D01645600ED8C5C /* libopencore-amrnb.a */,
+				DEC0DC581D01645600ED8C5C /* libopencore-amrwb.a */,
+				DEC0DC591D01645600ED8C5C /* libopenh264.a */,
+				DEC0DC5A1D01645600ED8C5C /* libopus.a */,
+				DEC0DC5C1D01645600ED8C5C /* libpolarssl.a */,
+				DEC0DC5D1D01645600ED8C5C /* libspeex.a */,
+				DEC0DC5E1D01645600ED8C5C /* libspeexdsp.a */,
+				DEC0DC5F1D01645600ED8C5C /* libsrtp.a */,
+				DEC0DC601D01645600ED8C5C /* libswresample.a */,
+				DEC0DC611D01645600ED8C5C /* libswscale.a */,
+				DEC0DC621D01645600ED8C5C /* libtunnel.a */,
+				DEC0DC631D01645600ED8C5C /* libvo-amrwbenc.a */,
+				DEC0DC641D01645600ED8C5C /* libvpx.a */,
+				DEC0DC651D01645600ED8C5C /* libx264.a */,
+				DEC0DC391D01640100ED8C5C /* mediastreamer */,
+			);
+			name = llinphonelib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DEC0DBF51D015DC500ED8C5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC0DCBA1D016D1D00ED8C5C /* QwayUtils.h in Headers */,
+				DEC0DCA21D01661900ED8C5C /* QwayManager.h in Headers */,
+				DE0DEA951D0181B1008434E6 /* FastAddressBook.h in Headers */,
+				DEC0DBFC1D015DC500ED8C5C /* QwayKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DEC0DBF71D015DC500ED8C5C /* QwayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC0DC0C1D015DC600ED8C5C /* Build configuration list for PBXNativeTarget "QwayKit" */;
+			buildPhases = (
+				DEC0DBF31D015DC500ED8C5C /* Sources */,
+				DEC0DBF41D015DC500ED8C5C /* Frameworks */,
+				DEC0DBF51D015DC500ED8C5C /* Headers */,
+				DEC0DBF61D015DC500ED8C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QwayKit;
+			productName = QwayKit;
+			productReference = DEC0DBF81D015DC500ED8C5C /* QwayKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEC0DC011D015DC500ED8C5C /* QwayKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC0DC0F1D015DC600ED8C5C /* Build configuration list for PBXNativeTarget "QwayKitTests" */;
+			buildPhases = (
+				DEC0DBFE1D015DC500ED8C5C /* Sources */,
+				DEC0DBFF1D015DC500ED8C5C /* Frameworks */,
+				DEC0DC001D015DC500ED8C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC0DC051D015DC600ED8C5C /* PBXTargetDependency */,
+			);
+			name = QwayKitTests;
+			productName = QwayKitTests;
+			productReference = DEC0DC021D015DC600ED8C5C /* QwayKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC0DBEF1D015DC500ED8C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qway;
+				TargetAttributes = {
+					DEC0DBF71D015DC500ED8C5C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DEC0DC011D015DC500ED8C5C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DEC0DBF21D015DC500ED8C5C /* Build configuration list for PBXProject "QwayKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEC0DBEE1D015DC500ED8C5C;
+			productRefGroup = DEC0DBF91D015DC500ED8C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC0DBF71D015DC500ED8C5C /* QwayKit */,
+				DEC0DC011D015DC500ED8C5C /* QwayKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC0DBF61D015DC500ED8C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC0DC7B1D01659E00ED8C5C /* libortp.a in Resources */,
+				DEC0DC7C1D01659E00ED8C5C /* libantlr3c.a in Resources */,
+				DEC0DC7D1D01659E00ED8C5C /* libavcodec.a in Resources */,
+				DEC0DC7E1D01659E00ED8C5C /* libavutil.a in Resources */,
+				DEC0DC7F1D01659E00ED8C5C /* libbcg729.a in Resources */,
+				DEC0DC801D01659E00ED8C5C /* libbctoolbox-tester.a in Resources */,
+				DEC0DC811D01659E00ED8C5C /* libbctoolbox.a in Resources */,
+				DEC0DC821D01659E00ED8C5C /* libbelcard.a in Resources */,
+				DEC0DC831D01659E00ED8C5C /* libbellesip.a in Resources */,
+				DEC0DC841D01659E00ED8C5C /* libbelr.a in Resources */,
+				DEC0DC851D01659E00ED8C5C /* libbzrtp.a in Resources */,
+				DEC0DC861D01659E00ED8C5C /* libcorec.a in Resources */,
+				DEC0DC871D01659E00ED8C5C /* libcunit.a in Resources */,
+				DEC0DC881D01659E00ED8C5C /* libebml2.a in Resources */,
+				DEC0DC891D01659E00ED8C5C /* libgsm.a in Resources */,
+				DEC0DC8A1D01659E00ED8C5C /* liblinphone.a in Resources */,
+				DEC0DC8B1D01659E00ED8C5C /* liblinphonetester.a in Resources */,
+				DEC0DC8C1D01659E00ED8C5C /* libmatroska2.a in Resources */,
+				DEC0DC8D1D01659E00ED8C5C /* libmbedcrypto.a in Resources */,
+				DEC0DC8E1D01659E00ED8C5C /* libmbedtls.a in Resources */,
+				DEC0DC8F1D01659E00ED8C5C /* libmbedx509.a in Resources */,
+				DEC0DC901D01659E00ED8C5C /* libmediastreamer_base.a in Resources */,
+				DEC0DC911D01659E00ED8C5C /* libmediastreamer_voip.a in Resources */,
+				DEC0DC921D01659E00ED8C5C /* libopencore-amrnb.a in Resources */,
+				DEC0DC931D01659E00ED8C5C /* libopencore-amrwb.a in Resources */,
+				DEC0DC941D01659E00ED8C5C /* libopenh264.a in Resources */,
+				DEC0DC951D01659E00ED8C5C /* libopus.a in Resources */,
+				DEC0DC961D01659E00ED8C5C /* libpolarssl.a in Resources */,
+				DEC0DC971D01659E00ED8C5C /* libspeex.a in Resources */,
+				DEC0DC981D01659E00ED8C5C /* libspeexdsp.a in Resources */,
+				DEC0DC991D01659E00ED8C5C /* libsrtp.a in Resources */,
+				DEC0DC9A1D01659E00ED8C5C /* libswresample.a in Resources */,
+				DEC0DC9B1D01659E00ED8C5C /* libswscale.a in Resources */,
+				DEC0DC9C1D01659E00ED8C5C /* libtunnel.a in Resources */,
+				DEC0DC9D1D01659E00ED8C5C /* libvo-amrwbenc.a in Resources */,
+				DEC0DC9E1D01659E00ED8C5C /* libvpx.a in Resources */,
+				DEC0DC9F1D01659E00ED8C5C /* libx264.a in Resources */,
+				DEC0DC741D01652D00ED8C5C /* libmsamr.a in Resources */,
+				DEC0DC751D01652D00ED8C5C /* libmsbcg729.a in Resources */,
+				DEC0DC761D01652D00ED8C5C /* libmsopenh264.a in Resources */,
+				DEC0DC771D01652D00ED8C5C /* libmssilk.a in Resources */,
+				DEC0DC781D01652D00ED8C5C /* libmswebrtc.a in Resources */,
+				DEC0DC791D01652D00ED8C5C /* libmsx264.a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC0DC001D015DC500ED8C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC0DBF31D015DC500ED8C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0DEA961D0181B1008434E6 /* FastAddressBook.m in Sources */,
+				DEC0DCA31D01661900ED8C5C /* QwayManager.m in Sources */,
+				DEC0DCBB1D016D1D00ED8C5C /* QwayUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC0DBFE1D015DC500ED8C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC0DC081D015DC600ED8C5C /* QwayKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC0DC051D015DC600ED8C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC0DBF71D015DC500ED8C5C /* QwayKit */;
+			targetProxy = DEC0DC041D015DC600ED8C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEC0DC0A1D015DC600ED8C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEC0DC0B1D015DC600ED8C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEC0DC0D1D015DC600ED8C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/liblinphone-sdk/apple-darwin/include";
+				INFOPLIST_FILE = QwayKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib",
+					"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
+					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib",
+					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEC0DC0E1D015DC600ED8C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/liblinphone-sdk/apple-darwin/include";
+				INFOPLIST_FILE = QwayKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib",
+					"$(SRCROOT)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
+					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib",
+					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DEC0DC101D015DC600ED8C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QwayKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEC0DC111D015DC600ED8C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QwayKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC0DBF21D015DC500ED8C5C /* Build configuration list for PBXProject "QwayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC0DC0A1D015DC600ED8C5C /* Debug */,
+				DEC0DC0B1D015DC600ED8C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC0DC0C1D015DC600ED8C5C /* Build configuration list for PBXNativeTarget "QwayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC0DC0D1D015DC600ED8C5C /* Debug */,
+				DEC0DC0E1D015DC600ED8C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC0DC0F1D015DC600ED8C5C /* Build configuration list for PBXNativeTarget "QwayKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC0DC101D015DC600ED8C5C /* Debug */,
+				DEC0DC111D015DC600ED8C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC0DBEF1D015DC500ED8C5C /* Project object */;
+}
