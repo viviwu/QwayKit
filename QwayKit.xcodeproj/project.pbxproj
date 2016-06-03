@@ -7,6 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D26CC781D01D02D00875495 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC761D01D02D00875495 /* libc++.1.tbd */; };
+		0D26CC791D01D02D00875495 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC771D01D02D00875495 /* libc++.tbd */; };
+		0D26CC7B1D01D04A00875495 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC7A1D01D04A00875495 /* libiconv.tbd */; };
+		0D26CC7E1D01D05B00875495 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC7C1D01D05B00875495 /* libresolv.9.tbd */; };
+		0D26CC7F1D01D05B00875495 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC7D1D01D05B00875495 /* libresolv.tbd */; };
+		0D26CC811D01D06900875495 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC801D01D06900875495 /* libsqlite3.tbd */; };
+		0D26CC841D01D07600875495 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC821D01D07600875495 /* libstdc++.6.tbd */; };
+		0D26CC851D01D07600875495 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC831D01D07600875495 /* libstdc++.tbd */; };
+		0D26CC871D01D08100875495 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC861D01D08100875495 /* libz.tbd */; };
+		0D26CC891D01D08A00875495 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D26CC881D01D08A00875495 /* libxml2.tbd */; };
+		0D26CCC11D01D89900875495 /* libxml2.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC881D01D08A00875495 /* libxml2.tbd */; };
+		0D26CCC21D01D89900875495 /* libz.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC861D01D08100875495 /* libz.tbd */; };
+		0D26CCC31D01D89900875495 /* libstdc++.6.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC821D01D07600875495 /* libstdc++.6.tbd */; };
+		0D26CCC41D01D89900875495 /* libstdc++.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC831D01D07600875495 /* libstdc++.tbd */; };
+		0D26CCC51D01D89900875495 /* libsqlite3.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC801D01D06900875495 /* libsqlite3.tbd */; };
+		0D26CCC61D01D89900875495 /* libresolv.9.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC7C1D01D05B00875495 /* libresolv.9.tbd */; };
+		0D26CCC71D01D89900875495 /* libresolv.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC7D1D01D05B00875495 /* libresolv.tbd */; };
+		0D26CCC81D01D89900875495 /* libiconv.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC7A1D01D04A00875495 /* libiconv.tbd */; };
+		0D26CCC91D01D89900875495 /* libc++.1.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC761D01D02D00875495 /* libc++.1.tbd */; };
+		0D26CCCA1D01D89900875495 /* libc++.tbd in Sources */ = {isa = PBXBuildFile; fileRef = 0D26CC771D01D02D00875495 /* libc++.tbd */; };
+		0D26CCCB1D01D8BC00875495 /* libortp.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5B1D01645600ED8C5C /* libortp.a */; };
+		0D26CCCC1D01D8BC00875495 /* libmsamr.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC6E1D01652D00ED8C5C /* libmsamr.a */; };
+		0D26CCCD1D01D8BC00875495 /* libmsbcg729.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC6F1D01652D00ED8C5C /* libmsbcg729.a */; };
+		0D26CCCE1D01D8BC00875495 /* libmsopenh264.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC701D01652D00ED8C5C /* libmsopenh264.a */; };
+		0D26CCCF1D01D8BC00875495 /* libmssilk.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC711D01652D00ED8C5C /* libmssilk.a */; };
+		0D26CCD01D01D8BC00875495 /* libmswebrtc.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC721D01652D00ED8C5C /* libmswebrtc.a */; };
+		0D26CCD11D01D8BC00875495 /* libmsx264.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC731D01652D00ED8C5C /* libmsx264.a */; };
+		0D26CCD21D01D8BC00875495 /* libantlr3c.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC411D01645600ED8C5C /* libantlr3c.a */; };
+		0D26CCD31D01D8BC00875495 /* libavcodec.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC421D01645600ED8C5C /* libavcodec.a */; };
+		0D26CCD41D01D8BC00875495 /* libavutil.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC431D01645600ED8C5C /* libavutil.a */; };
+		0D26CCD51D01D8BC00875495 /* libbcg729.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC441D01645600ED8C5C /* libbcg729.a */; };
+		0D26CCD61D01D8BC00875495 /* libbctoolbox-tester.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC451D01645600ED8C5C /* libbctoolbox-tester.a */; };
+		0D26CCD71D01D8BC00875495 /* libbctoolbox.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC461D01645600ED8C5C /* libbctoolbox.a */; };
+		0D26CCD81D01D8BC00875495 /* libbelcard.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC471D01645600ED8C5C /* libbelcard.a */; };
+		0D26CCD91D01D8BC00875495 /* libbellesip.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC481D01645600ED8C5C /* libbellesip.a */; };
+		0D26CCDA1D01D8BC00875495 /* libbelr.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC491D01645600ED8C5C /* libbelr.a */; };
+		0D26CCDB1D01D8BC00875495 /* libbzrtp.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4A1D01645600ED8C5C /* libbzrtp.a */; };
+		0D26CCDC1D01D8BC00875495 /* libcorec.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4B1D01645600ED8C5C /* libcorec.a */; };
+		0D26CCDD1D01D8BC00875495 /* libcunit.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4C1D01645600ED8C5C /* libcunit.a */; };
+		0D26CCDE1D01D8BC00875495 /* libebml2.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4D1D01645600ED8C5C /* libebml2.a */; };
+		0D26CCDF1D01D8BC00875495 /* libgsm.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4E1D01645600ED8C5C /* libgsm.a */; };
+		0D26CCE01D01D8BC00875495 /* liblinphone.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC4F1D01645600ED8C5C /* liblinphone.a */; };
+		0D26CCE11D01D8BC00875495 /* liblinphonetester.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC501D01645600ED8C5C /* liblinphonetester.a */; };
+		0D26CCE21D01D8BC00875495 /* libmatroska2.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC511D01645600ED8C5C /* libmatroska2.a */; };
+		0D26CCE31D01D8BC00875495 /* libmbedcrypto.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC521D01645600ED8C5C /* libmbedcrypto.a */; };
+		0D26CCE41D01D8BC00875495 /* libmbedtls.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC531D01645600ED8C5C /* libmbedtls.a */; };
+		0D26CCE51D01D8BC00875495 /* libmbedx509.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC541D01645600ED8C5C /* libmbedx509.a */; };
+		0D26CCE61D01D8BC00875495 /* libmediastreamer_base.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC551D01645600ED8C5C /* libmediastreamer_base.a */; };
+		0D26CCE71D01D8BC00875495 /* libmediastreamer_voip.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC561D01645600ED8C5C /* libmediastreamer_voip.a */; };
+		0D26CCE81D01D8BC00875495 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC571D01645600ED8C5C /* libopencore-amrnb.a */; };
+		0D26CCE91D01D8BC00875495 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC581D01645600ED8C5C /* libopencore-amrwb.a */; };
+		0D26CCEA1D01D8BC00875495 /* libopenh264.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC591D01645600ED8C5C /* libopenh264.a */; };
+		0D26CCEB1D01D8BC00875495 /* libopus.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5A1D01645600ED8C5C /* libopus.a */; };
+		0D26CCEC1D01D8BC00875495 /* libpolarssl.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5C1D01645600ED8C5C /* libpolarssl.a */; };
+		0D26CCED1D01D8BC00875495 /* libspeex.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5D1D01645600ED8C5C /* libspeex.a */; };
+		0D26CCEE1D01D8BC00875495 /* libspeexdsp.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5E1D01645600ED8C5C /* libspeexdsp.a */; };
+		0D26CCEF1D01D8BC00875495 /* libsrtp.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC5F1D01645600ED8C5C /* libsrtp.a */; };
+		0D26CCF01D01D8BC00875495 /* libswresample.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC601D01645600ED8C5C /* libswresample.a */; };
+		0D26CCF11D01D8BC00875495 /* libswscale.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC611D01645600ED8C5C /* libswscale.a */; };
+		0D26CCF21D01D8BC00875495 /* libtunnel.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC621D01645600ED8C5C /* libtunnel.a */; };
+		0D26CCF31D01D8BC00875495 /* libvo-amrwbenc.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC631D01645600ED8C5C /* libvo-amrwbenc.a */; };
+		0D26CCF41D01D8BC00875495 /* libvpx.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC641D01645600ED8C5C /* libvpx.a */; };
+		0D26CCF51D01D8BC00875495 /* libx264.a in Sources */ = {isa = PBXBuildFile; fileRef = DEC0DC651D01645600ED8C5C /* libx264.a */; };
 		DE0DEA951D0181B1008434E6 /* FastAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0DEA931D0181B1008434E6 /* FastAddressBook.h */; };
 		DE0DEA961D0181B1008434E6 /* FastAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0DEA941D0181B1008434E6 /* FastAddressBook.m */; };
 		DEC0DBFC1D015DC500ED8C5C /* QwayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC0DBFB1D015DC500ED8C5C /* QwayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -72,6 +135,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D26CC761D01D02D00875495 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		0D26CC771D01D02D00875495 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0D26CC7A1D01D04A00875495 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		0D26CC7C1D01D05B00875495 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		0D26CC7D1D01D05B00875495 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		0D26CC801D01D06900875495 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0D26CC821D01D07600875495 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		0D26CC831D01D07600875495 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0D26CC861D01D08100875495 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0D26CC881D01D08A00875495 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		DE0DEA931D0181B1008434E6 /* FastAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastAddressBook.h; sourceTree = "<group>"; };
 		DE0DEA941D0181B1008434E6 /* FastAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastAddressBook.m; sourceTree = "<group>"; };
 		DEC0DBF81D015DC500ED8C5C /* QwayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QwayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +213,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D26CC891D01D08A00875495 /* libxml2.tbd in Frameworks */,
+				0D26CC871D01D08100875495 /* libz.tbd in Frameworks */,
+				0D26CC841D01D07600875495 /* libstdc++.6.tbd in Frameworks */,
+				0D26CC851D01D07600875495 /* libstdc++.tbd in Frameworks */,
+				0D26CC811D01D06900875495 /* libsqlite3.tbd in Frameworks */,
+				0D26CC7E1D01D05B00875495 /* libresolv.9.tbd in Frameworks */,
+				0D26CC7F1D01D05B00875495 /* libresolv.tbd in Frameworks */,
+				0D26CC7B1D01D04A00875495 /* libiconv.tbd in Frameworks */,
+				0D26CC781D01D02D00875495 /* libc++.1.tbd in Frameworks */,
+				0D26CC791D01D02D00875495 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +237,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D26CC951D01D81600875495 /* systemLib */ = {
+			isa = PBXGroup;
+			children = (
+				0D26CC881D01D08A00875495 /* libxml2.tbd */,
+				0D26CC861D01D08100875495 /* libz.tbd */,
+				0D26CC821D01D07600875495 /* libstdc++.6.tbd */,
+				0D26CC831D01D07600875495 /* libstdc++.tbd */,
+				0D26CC801D01D06900875495 /* libsqlite3.tbd */,
+				0D26CC7C1D01D05B00875495 /* libresolv.9.tbd */,
+				0D26CC7D1D01D05B00875495 /* libresolv.tbd */,
+				0D26CC7A1D01D04A00875495 /* libiconv.tbd */,
+				0D26CC761D01D02D00875495 /* libc++.1.tbd */,
+				0D26CC771D01D02D00875495 /* libc++.tbd */,
+			);
+			name = systemLib;
+			path = QwayKit;
+			sourceTree = "<group>";
+		};
 		DEC0DBEE1D015DC500ED8C5C = {
 			isa = PBXGroup;
 			children = (
 				DEC0DBFA1D015DC500ED8C5C /* QwayKit */,
+				0D26CC951D01D81600875495 /* systemLib */,
 				DEC0DC7A1D01656300ED8C5C /* llinphonelib */,
 				DEC0DC061D015DC600ED8C5C /* QwayKitTests */,
 				DEC0DBF91D015DC500ED8C5C /* Products */,
@@ -423,6 +525,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D26CCCC1D01D8BC00875495 /* libmsamr.a in Sources */,
+				0D26CCCD1D01D8BC00875495 /* libmsbcg729.a in Sources */,
+				0D26CCCE1D01D8BC00875495 /* libmsopenh264.a in Sources */,
+				0D26CCCF1D01D8BC00875495 /* libmssilk.a in Sources */,
+				0D26CCD01D01D8BC00875495 /* libmswebrtc.a in Sources */,
+				0D26CCD11D01D8BC00875495 /* libmsx264.a in Sources */,
+				0D26CCCB1D01D8BC00875495 /* libortp.a in Sources */,
+				0D26CCD21D01D8BC00875495 /* libantlr3c.a in Sources */,
+				0D26CCD31D01D8BC00875495 /* libavcodec.a in Sources */,
+				0D26CCD41D01D8BC00875495 /* libavutil.a in Sources */,
+				0D26CCD51D01D8BC00875495 /* libbcg729.a in Sources */,
+				0D26CCD61D01D8BC00875495 /* libbctoolbox-tester.a in Sources */,
+				0D26CCD71D01D8BC00875495 /* libbctoolbox.a in Sources */,
+				0D26CCD81D01D8BC00875495 /* libbelcard.a in Sources */,
+				0D26CCD91D01D8BC00875495 /* libbellesip.a in Sources */,
+				0D26CCDA1D01D8BC00875495 /* libbelr.a in Sources */,
+				0D26CCDB1D01D8BC00875495 /* libbzrtp.a in Sources */,
+				0D26CCDC1D01D8BC00875495 /* libcorec.a in Sources */,
+				0D26CCDD1D01D8BC00875495 /* libcunit.a in Sources */,
+				0D26CCDE1D01D8BC00875495 /* libebml2.a in Sources */,
+				0D26CCDF1D01D8BC00875495 /* libgsm.a in Sources */,
+				0D26CCE01D01D8BC00875495 /* liblinphone.a in Sources */,
+				0D26CCE11D01D8BC00875495 /* liblinphonetester.a in Sources */,
+				0D26CCE21D01D8BC00875495 /* libmatroska2.a in Sources */,
+				0D26CCE31D01D8BC00875495 /* libmbedcrypto.a in Sources */,
+				0D26CCE41D01D8BC00875495 /* libmbedtls.a in Sources */,
+				0D26CCE51D01D8BC00875495 /* libmbedx509.a in Sources */,
+				0D26CCE61D01D8BC00875495 /* libmediastreamer_base.a in Sources */,
+				0D26CCE71D01D8BC00875495 /* libmediastreamer_voip.a in Sources */,
+				0D26CCE81D01D8BC00875495 /* libopencore-amrnb.a in Sources */,
+				0D26CCE91D01D8BC00875495 /* libopencore-amrwb.a in Sources */,
+				0D26CCEA1D01D8BC00875495 /* libopenh264.a in Sources */,
+				0D26CCEB1D01D8BC00875495 /* libopus.a in Sources */,
+				0D26CCEC1D01D8BC00875495 /* libpolarssl.a in Sources */,
+				0D26CCED1D01D8BC00875495 /* libspeex.a in Sources */,
+				0D26CCEE1D01D8BC00875495 /* libspeexdsp.a in Sources */,
+				0D26CCEF1D01D8BC00875495 /* libsrtp.a in Sources */,
+				0D26CCF01D01D8BC00875495 /* libswresample.a in Sources */,
+				0D26CCF11D01D8BC00875495 /* libswscale.a in Sources */,
+				0D26CCF21D01D8BC00875495 /* libtunnel.a in Sources */,
+				0D26CCF31D01D8BC00875495 /* libvo-amrwbenc.a in Sources */,
+				0D26CCF41D01D8BC00875495 /* libvpx.a in Sources */,
+				0D26CCF51D01D8BC00875495 /* libx264.a in Sources */,
+				0D26CCC11D01D89900875495 /* libxml2.tbd in Sources */,
+				0D26CCC21D01D89900875495 /* libz.tbd in Sources */,
+				0D26CCC31D01D89900875495 /* libstdc++.6.tbd in Sources */,
+				0D26CCC41D01D89900875495 /* libstdc++.tbd in Sources */,
+				0D26CCC51D01D89900875495 /* libsqlite3.tbd in Sources */,
+				0D26CCC61D01D89900875495 /* libresolv.9.tbd in Sources */,
+				0D26CCC71D01D89900875495 /* libresolv.tbd in Sources */,
+				0D26CCC81D01D89900875495 /* libiconv.tbd in Sources */,
+				0D26CCC91D01D89900875495 /* libc++.1.tbd in Sources */,
+				0D26CCCA1D01D89900875495 /* libc++.tbd in Sources */,
 				DE0DEA961D0181B1008434E6 /* FastAddressBook.m in Sources */,
 				DEC0DCA31D01661900ED8C5C /* QwayManager.m in Sources */,
 				DEC0DCBB1D016D1D00ED8C5C /* QwayUtils.m in Sources */,
@@ -451,7 +606,7 @@
 		DEC0DC0A1D015DC600ED8C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -486,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -499,7 +654,7 @@
 		DEC0DC0B1D015DC600ED8C5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -528,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,14 +696,17 @@
 		DEC0DC0D1D015DC600ED8C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/liblinphone-sdk/apple-darwin/include";
 				INFOPLIST_FILE = QwayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(BUILT_PRODUCTS_DIR)",
@@ -557,6 +715,8 @@
 					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib",
 					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
 				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -566,14 +726,17 @@
 		DEC0DC0E1D015DC600ED8C5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = c99;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/liblinphone-sdk/apple-darwin/include";
 				INFOPLIST_FILE = QwayKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(BUILT_PRODUCTS_DIR)",
@@ -582,6 +745,8 @@
 					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib",
 					"$(PROJECT_DIR)/liblinphone-sdk/apple-darwin/lib/mediastreamer/plugins",
 				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
 				PRODUCT_BUNDLE_IDENTIFIER = XW.QwayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

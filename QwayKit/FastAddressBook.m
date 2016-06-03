@@ -26,7 +26,23 @@ static void sync_address_book (ABAddressBookRef addressBook, CFDictionaryRef inf
 
 
 + (BOOL)isAuthorized {
-    return !ABAddressBookGetAuthorizationStatus || ABAddressBookGetAuthorizationStatus() ==  kABAuthorizationStatusAuthorized;
+//    return !ABAddressBookGetAuthorizationStatus || ABAddressBookGetAuthorizationStatus() ==  kABAuthorizationStatusAuthorized;
+    ABAddressBookRef addressBook = NULL;
+    __block BOOL accessGranted = NO;
+    
+    if (&ABAddressBookRequestAccessWithCompletion != NULL) { // we're on iOS 6
+        dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+        ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
+            accessGranted = granted;
+            dispatch_semaphore_signal(sema);
+        });
+        dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+//        dispatch_release(sema);
+    }
+    else { // we're on iOS 5 or older
+        accessGranted = YES;  
+    }
+    return accessGranted;
 }
 
 - (FastAddressBook*)init {
@@ -264,32 +280,16 @@ void sync_address_book (ABAddressBookRef addressBook, CFDictionaryRef info, void
 #pragma mark--displayNameForAddress
 + (NSString *)displayNameForAddress:(const LinphoneAddress *)addr
 {
-    
-    NSString* address = nil;
+    NSString* address =nil;
     if(addr != NULL) {
-        BOOL useLinphoneAddress = true;
         // contact name
-        char* lAddress = linphone_address_as_string_uri_only(addr);
-        if(lAddress) {
-            if ([FastAddressBook isAuthorized]) {
-                NSString *normalizedSipAddress = [FastAddressBook normalizeSipURI:[NSString stringWithUTF8String:lAddress]];
-                ABRecordRef contact = [self getContact:normalizedSipAddress];
-                if(contact) {
-                    address = [FastAddressBook getContactDisplayName:contact];
-                    useLinphoneAddress = false;
-                }
-            }
-            
-            ms_free(lAddress);
-        }
-        if(useLinphoneAddress) {
-            const char* lDisplayName = linphone_address_get_display_name(addr);
-            const char* lUserName = linphone_address_get_username(addr);
-            if (lDisplayName)
-                address = [NSString stringWithUTF8String:lDisplayName];
-            else if(lUserName)
-                address = [NSString stringWithUTF8String:lUserName];
-        }
+//        char* lAddress = linphone_address_as_string_uri_only(addr);
+        const char* lDisplayName = linphone_address_get_display_name(addr);
+        const char* lUserName = linphone_address_get_username(addr);
+        if (lDisplayName)
+            address = [NSString stringWithUTF8String:lDisplayName];
+        else if(lUserName)
+            address = [NSString stringWithUTF8String:lUserName];
     }
     if(address == nil) {
         address = NSLocalizedString(@"Unknown", nil);
